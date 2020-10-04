@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Favicon icon -->
+<link rel="icon" href="styles/favicon.png">
+
+<!-- font awesome link -->
+    <script src="https://use.fontawesome.com/667e5d005c.js"></script>
+
+<!-- google fonts link -->
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap" rel="stylesheet">
+
+<!-- styles link -->
+    <link rel="stylesheet" href="styles/style.css">
+    
+    <title>Checklist</title>
+
+</head>
+
+<body>
+
+<!-- Header -->
+    <header>
+        <div class="headerContainer">
+            <div class="title">
+                <h1>To-do checklist</h1>
+                <h3>Your checklist for to-dos!</h3>
+            </div>
+            <div id="headerImage">
+                <img src="styles/heroBannerImg.png" alt="">
+            </div>
+            <a class="scrollDown" href="#footer">
+                <i class="fa fa-angle-double-down icon-large"></i>
+            </a>
+        </div>
+    </header>
+
+<!-- Main -->
+    <main>
+        <div class="section">
+            <div id="wrapper"> 
+                <div id="instructions">
+                    <h2><u>Instructions</u></h2>
+                    <p>Click in the plus sign to add a new to-do <br>then press "enter" to add it to a new line. 
+                    <br> You can check it as done just clicking on the item.
+                    <br> You can delete it just clicking in the trash that<br> appears when you hover the mouse over the item. 
+                    </p>
+                </div>
+                <div id="container">
+                    <h1>Checklist<i class="fa fa-plus"></i></h1>
+                    <input type="text" placeholder="Add new item" maxlength="32"></input>
+                    <ul></ul>
+                </div>
+            </div>
+        </div>
+    </main>
+
+<!-- footer -->
+    <div id="footer">
+           <p class="copyright"><u>Developed by Laura Vieira 2020</u></p>
+    </div>
+    
+<!-- jquery link -->
+    <script type="text/javascript" src="assets/js/lib/jquery.js"></script>
+
+<!-- javascript link -->
+    <script type="text/javascript" src="assets/js/script.js"></script>
+
+</body>
+</html>
