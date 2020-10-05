@@ -1,10 +1,11 @@
-You can see it live here: https://lavieira.github.io/checklist/
+#To-do checklist 
+####Your checklist for to-dos!
 
-To-do checklist
-Your checklist for to-dos!
+You can see it live [here][1].
 
-This is a project from Web Development Bootcamp
+It helps you to organize your daily to-dos. Add a new to-do for each line. Make it checked when done or delete it.
 
-Features
+#Features
 Built using Jquery, HTML5, CSS.
 
+[1]: https://lavieira.github.io/checklist/
