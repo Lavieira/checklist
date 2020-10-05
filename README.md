@@ -1,3 +1,5 @@
+You can see it live here: https://lavieira.github.io/checklist/
+
 To-do checklist
 Your checklist for to-dos!
 
